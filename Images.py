@@ -1,7 +1,7 @@
 import cv2
 
 # Reading the image
-img = cv2.imread("sample1.jpeg")
+img = cv2.imread("Resources/sample1.jpeg")
 
 # Resizing
 img2 = cv2.resize(img, (430, 500))
