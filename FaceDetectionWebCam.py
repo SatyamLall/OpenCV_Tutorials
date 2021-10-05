@@ -4,7 +4,6 @@ import cv2
 
 # Reading pre-trained file for facial recognition
 faceCascade = cv2.CascadeClassifier("Resources/haarcascades/haarcascade_frontalface_default.xml")
-img = cv2.imread("Resources/sample1.jpeg")
 
 # Using webcame
 cap = cv2.VideoCapture(0)

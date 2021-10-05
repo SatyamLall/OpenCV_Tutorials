@@ -104,5 +104,5 @@ while True:
 
     imgStack = stackImages(0.3, [[img, imgHSV], [mask, imgRes]])
     cv2.imshow("Images", imgStack)
-    
+
     cv2.waitKey(1)
